@@ -8,5 +8,17 @@ body{
 .menu{
     width : 80%;
     background-color: #bfe6fc;
-    margin: 0 auto;
+    margin: 15px auto;
+    padding: 10px 20px;
+}
+.item p{
+    display: inline-block;
+}
+.flavor{
+    text-align: left;
+    width: 75%;
+}
+.price{
+    text-align: right;
+    width: 25%;
 }
