@@ -23,3 +23,8 @@ body{
     text-align: right;
     width: 25%;
 }
+hr{
+    background-color: rgb(17, 17, 133);
+    height: 2px;
+    border-color: rgb(17, 17, 133);
+}
