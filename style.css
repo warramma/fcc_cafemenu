@@ -3,14 +3,15 @@ h1, h2, p{
 }
 body{
     background: url("https://i.pinimg.com/originals/9c/fc/4c/9cfc4c37f3d447fb4ece4f05e64fa9a9.gif");
-    
+    padding: 10px;
 }
 .menu{
     width : 80%;
     max-width: 800px;
     background-color: #bfe6fc;
     margin: 15px auto;
-    padding: 10px 20px;
+    padding: 10px 40px;
+    border-radius: 10px;
 }
 .item p{
     display: inline-block;
@@ -27,4 +28,7 @@ hr{
     background-color: rgb(17, 17, 133);
     height: 2px;
     border-color: rgb(17, 17, 133);
+    width: 75%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
