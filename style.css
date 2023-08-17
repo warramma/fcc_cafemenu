@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Comfortaa&family=Quicksand&family=Roboto+Mono&display=swap');
 
-
+/*get white icons*/
 h1, h2, p{
     text-align: center;
     
@@ -9,6 +9,16 @@ h1, h2, p{
 body{
     background: url("https://i.pinimg.com/originals/9c/fc/4c/9cfc4c37f3d447fb4ece4f05e64fa9a9.gif");
     padding: 10px;
+}
+.header{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+.header img{
+    width: 40px;
+    height:40px;
+    margin: 5px;
 }
 .menu{
     width : 80%;
@@ -33,6 +43,10 @@ h2{
 h1{
     font-family: 'Comfortaa', cursive;
 }
+h1, h2{
+    text-shadow: rgb(8, 72, 132) 4px 0 30px;
+    color: white;
+}
 .flavor, .dessert{
     text-align: left;
     width: 75%;
@@ -53,6 +67,8 @@ hr{
     width: 60px;
     padding: 0% 45%;
     margin-top: -15px;
+    
+    
 }
 footer{
     display:flex;
