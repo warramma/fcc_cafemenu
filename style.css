@@ -1,5 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Comfortaa&family=Quicksand&family=Roboto+Mono&display=swap');
+
+
 h1, h2, p{
     text-align: center;
+    
 }
 body{
     background: url("https://i.pinimg.com/originals/9c/fc/4c/9cfc4c37f3d447fb4ece4f05e64fa9a9.gif");
@@ -16,9 +21,17 @@ body{
 .item p{
     display: inline-block;
     font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+.established{
+    font-family: 'Roboto Mono', monospace;
 }
 h2{
     font-size: 26px;
+    font-family: 'Comfortaa', cursive;
+}
+h1{
+    font-family: 'Comfortaa', cursive;
 }
 .flavor, .dessert{
     text-align: left;
