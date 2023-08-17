@@ -15,6 +15,10 @@ body{
 }
 .item p{
     display: inline-block;
+    font-size: 20px;
+}
+h2{
+    font-size: 26px;
 }
 .flavor, .dessert{
     text-align: left;
@@ -31,4 +35,21 @@ hr{
     width: 75%;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.icon{
+    width: 60px;
+    padding: 0% 45%;
+    margin-top: -15px;
+}
+footer{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: -20px;
+}
+.footerone{
+    font-size:18px;
+}
+.footertwo{
+    font-size: 14px;
 }
